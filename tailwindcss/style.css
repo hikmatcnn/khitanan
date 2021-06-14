@@ -19,3 +19,21 @@
   stroke: #4691f6;
   stroke-width: 1;
 }
+
+.trapesium-indigo-900 {
+  @apply w-full bg-indigo-900 inset-0;
+  content: "";
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+
+.trapesium-indigo-500 {
+  @apply w-full bg-indigo-500 inset-0;
+  content: "";
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+
+.trapesium-white {
+  @apply w-full bg-white inset-0;
+  content: "";
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}

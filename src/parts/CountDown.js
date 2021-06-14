@@ -2,49 +2,39 @@ import React from 'react'
 
 function CountDown() {
     return (
-
-<section className="max-w-screen-xl bg-green-500 dark:bg-gray-800 px-4 py-12 mx-auto sm:py-16 sm:px-6 lg:px-8 lg:py-20">
-    <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl text-base leading-9 text-white sm:text-4xl sm:leading-10">
-            Acara dimulai dalam
-        </h2>        
+<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-5">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Acara dimulai dalam</h1>
     </div>
-    <div className="mt-10 text-center sm:max-w-4xl sm:mx-auto sm:grid sm:grid-cols-4 sm:gap-8">
-        <div>
-            <p className="text-5xl font-extrabold leading-none text-white">
-                24
-            </p>
-            <p className="mt-2 text-base font-medium leading-6 text-white">
-                Days
-            </p>
+    <div className="flex flex-wrap -m-4 text-center">
+      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div className="border-2 border-blue-400 px-4 py-6 rounded-lg">         
+          <h2 className="title-font font-medium text-3xl text-gray-900">2</h2>
+          <p className="leading-relaxed">Hari</p>
         </div>
-        <div className="mt-10 sm:mt-0">
-            <p className="text-5xl font-extrabold leading-none text-white">
-                6
-            </p>
-            <p className="mt-2 text-base font-medium leading-6 text-white">
-                Hours
-            </p>
+      </div>
+      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div className="border-2 border-blue-400 px-4 py-6 rounded-lg">          
+          <h2 className="title-font font-medium text-3xl text-gray-900">1</h2>
+          <p className="leading-relaxed">Jam</p>
         </div>
-        <div className="mt-10 sm:mt-0">
-            <p className="text-5xl font-extrabold leading-none text-white">
-                8
-            </p>
-            <p className="mt-2 text-base font-medium leading-6 text-white">
-                Minutes
-            </p>
+      </div>
+      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div className="border-2 border-blue-400 px-4 py-6 rounded-lg">          
+          <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+          <p className="leading-relaxed">Menit</p>
         </div>
-        <div className="mt-10 sm:mt-0">
-            <p className="text-5xl font-extrabold leading-none text-white">
-                24
-            </p>
-            <p className="mt-2 text-base font-medium leading-6 text-white">
-                Second
-            </p>
+      </div>
+      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div className="border-2 border-blue-400 px-4 py-6 rounded-lg">
+          <h2 className="title-font font-medium text-3xl text-gray-900">46</h2>
+          <p className="leading-relaxed">Detik</p>
         </div>
-    </div>    
+      </div>
+    </div>
+  </div>
 </section>
-
     )
 }
 

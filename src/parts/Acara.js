@@ -1,34 +1,58 @@
 import React from 'react'
+import IconCalendar from 'public/images/icon-calendar.svg'
+import IconMaps from 'public/images/icon-maps.svg'
+import IconTimes from 'public/images/icon-time.svg'
 
 function Acara() {
     return (
-        <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">Ananda Afwan 
-            <br className="hidden sm:block"/>Putra dari Bapak dan Ibu
-            </h1>
-            <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-            <div className="p-4 md:w-1/2 flex">
-               
-                <div className="flex-grow pl-6">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Yang diselenggarakan pada:</h2>
-                <p className="leading-relaxed text-base"><span className="font-extrabold">Tanggal &emsp;: </span>Sabtu</p>
-                <p className="leading-relaxed text-base"><span className="font-extrabold">Waktu &emsp;: </span>09.00 s.d. Selesai</p>
-                <p className="leading-relaxed text-base"><span className="font-extrabold">Tempat &emsp;: </span>Jl. Bengawan Kota Bandung</p>
-            </div>
-            </div>
-            <div className="p-4 md:w-1/2 flex">
-                <div className="flex-grow pl-6">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-2">*Keterangan waktu</h2>
-                <p className="leading-relaxed text-base"><span className="font-extrabold">Sesi 1 &emsp;: </span>10.00 - 11.30</p>
-                <p className="leading-relaxed text-base"><span className="font-extrabold">Sesi 2 &emsp;: </span>11.30 - 13.00</p>
-                <p className="leading-relaxed text-base"><span className="font-extrabold">Sesi 3 &emsp;: </span>13.00 - 14.30</p>
-            </div>
-            </div>
-            
-            </div>
+      <section className="text-gray-600 body-font bg-indigo-900">
+        <div className="trapesium-white">
+  <div className="container px-5 py-24 mx-auto">
+  <div className="text-center mb-20">
+      <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Ananda Afwan</h1>
+      <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Putra dari Bapak dan Ibu.</p>
+    </div>
+    <div className="flex md:flex-row flex-col items-center">
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center md:pl-8"><span>Acara</span> diselenggarakan pada :
+      </h2>
+      <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div className="p-2 sm:w-1/2 w-full">
+        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
+          <IconCalendar className="text-indigo-500 w-8 h-8 flex-shrink-0 mr-4"/>
+          <span className="title-font font-medium">Sabtu, 26 Juni 2021</span>
         </div>
-        </section>
+      </div>     
+      <div className="p-2 sm:w-1/2 w-full">
+        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
+        <IconMaps className="text-indigo-500 w-8 h-8 flex-shrink-0 mr-4"/>
+          <span className="title-font font-medium">Jl. Bengawan Kota Bandung</span>
+        </div>
+      </div>
+      <div className="p-2 sm:w-1/2 w-full">
+        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
+        <IconTimes className="text-indigo-500 w-8 h-8 flex-shrink-0 mr-4"/>
+          <span className="title-font font-medium">Sesi Pertama (10.00 - 11.30)</span>
+        </div>
+      </div>
+      <div className="p-2 sm:w-1/2 w-full">
+        <div className="bg-gray-100 rounded flex p-4 h-full items-center">
+        <IconTimes className="text-indigo-500 w-8 h-8 flex-shrink-0 mr-4"/>         
+          <span className="title-font font-medium">Sesi Kedua (11.30 - 13.00)</span>
+        </div>
+      </div>
+
+      
+    </div>
+    </div>
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-5">
+      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+    </div>
+  </div>    
+  </div>
+  </div>
+</section>
+        
     )
 }
 
