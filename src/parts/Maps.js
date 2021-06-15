@@ -32,7 +32,7 @@ function Maps() {
         <IconChecked className="text-indigo-500 w-4 h-4 mr-1"/>&emsp; Menjaga Jarak Satu Sama Lain 
         </li>
       </ul>
-      <button className="text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded-3xl text-lg mb-2">Reservasi</button>
+      <button className="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-3xl text-lg mb-2"><a href="https://forms.gle/9cFo34QvFup1DGBK8">Reservasi</a></button>
       <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-3xl text-lg"><a href="https://www.google.com/maps/dir/?api=1&destination=jl.%20bengawan%20no.17&dir_action=navigate">Arahkan Ke Lokasi</a></button>
       
     </div>

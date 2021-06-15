@@ -22,7 +22,7 @@ export default function Home() {
       <main>
       <div className="fixed left-0 top-0 h-16 w-16 z-50">
           <ReactAudioPlayer
-            src="/files/George_Gershwin_playing_Rhapsody_in_Blue.ogg"
+            src="/files/backsound-instrumen.ogg"
             autoPlay
             controls
           />
