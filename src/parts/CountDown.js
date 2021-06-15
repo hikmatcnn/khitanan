@@ -14,7 +14,7 @@ const timerProps = {
 const renderTime2 = (dimension, time) => {
   return (
     <div>
-          <h2 className="title-font font-medium text-3xl text-gray-900 sm:font-thin sm:text-base">
+          <h2 className="title-font font-medium text-3xl text-gray-900">
           {time}
           </h2>
           <p className="leading-relaxed">{dimension}</p>
