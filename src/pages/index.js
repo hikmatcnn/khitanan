@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Acara from 'src/parts/Acara'
 import Awalan from 'src/parts/Awalan'
 import CountDown from 'src/parts/CountDown'

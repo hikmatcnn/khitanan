@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Hero() {
     return (
-        <section className="text-indigo-200 body-font bg-warmGray-50">
+        <section className="text-gray-200 body-font bg-warmGray-50">
             <div className="trapesium-indigo-500">
         <div className="container mx-auto flex px-5 py-16 items-center justify-center flex-col">
             <Image src="/images/anak_muslim.png" className="lg:w-2/6 md:w-3/6 sm:w-1/4 h-auto sm:h-1/4 object-cover object-center rounded" alt="anak_muslim" width="500" height="500" />
