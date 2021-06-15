@@ -14,7 +14,7 @@ const timerProps = {
 const renderTime2 = (dimension, time) => {
   return (
     <div>
-          <h2 className="title-font font-medium text-3xl text-gray-900">
+          <h2 className="title-font font-medium text-3xl text-gray-900 sm:font-thin sm:text-base">
           {time}
           </h2>
           <p className="leading-relaxed">{dimension}</p>
@@ -42,8 +42,8 @@ function CountDown() {
     <div className="flex flex-col text-center w-full mb-5">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Acara dimulai dalam</h1>
     </div>
-    <div className="flex justify-between">
-      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+    <div className="flex flex-wrap md:justify-between">
+      <div className="p-4 md:w-1/4 sm:w-1/2">
       <CountdownCircleTimer
         {...timerProps}
         colors={[["#7E2E84"]]}
@@ -55,7 +55,7 @@ function CountDown() {
         }
       </CountdownCircleTimer>
       </div>
-      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+      <div className="p-4 md:w-1/4 sm:w-1/2">
       <CountdownCircleTimer
         {...timerProps}
         colors={[["#D14081"]]}
@@ -70,7 +70,7 @@ function CountDown() {
         }
       </CountdownCircleTimer>
       </div>
-      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+      <div className="p-4 md:w-1/4 sm:w-1/2">
       <CountdownCircleTimer
         {...timerProps}
         colors={[["#EF798A"]]}
@@ -85,7 +85,7 @@ function CountDown() {
         }
       </CountdownCircleTimer>
       </div>
-      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+      <div className="p-4 md:w-1/4 sm:w-1/2">
         <CountdownCircleTimer
         {...timerProps}
         colors={[["#218380"]]}
