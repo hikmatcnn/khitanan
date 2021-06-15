@@ -37,3 +37,7 @@
   content: "";
   clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
 }
+
+.time {
+  font-size: 32px;
+}

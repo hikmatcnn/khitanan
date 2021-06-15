@@ -7,6 +7,7 @@ import FooterA from 'src/parts/Footer'
 import Hero from 'src/parts/Hero'
 import Maps from 'src/parts/Maps'
 import TerimaKasih from 'src/parts/TerimaKasih'
+import ReactAudioPlayer from 'react-audio-player'
 
 export default function Home() {
   return (
@@ -19,6 +20,13 @@ export default function Home() {
       </Head>
 
       <main>
+      <div className="fixed left-0 top-0 h-16 w-16 z-50">
+          <ReactAudioPlayer
+            src="/files/George_Gershwin_playing_Rhapsody_in_Blue.ogg"
+            autoPlay
+            controls
+          />
+        </div>
         <Hero></Hero>
         <Awalan></Awalan>
         <Acara></Acara>
@@ -27,6 +35,12 @@ export default function Home() {
         <Maps></Maps>
         <FooterA></FooterA>
       </main>
+
+      
+       
+      
+      
+
     </div>
   )
 }
