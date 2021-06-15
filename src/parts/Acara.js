@@ -8,10 +8,10 @@ function Acara() {
     return (
       <section className="text-gray-600 body-font bg-indigo-900">
         <div className="trapesium-white">
-  <div className="container px-5 py-24 mx-auto">
+  <div className="container px-5 pt-12 pb-24 mx-auto">
   <div className="text-center mb-20">
-      <h1 className="sm:text-3xl text-2xl font-bold text-center title-font text-gray-900 mb-4">WIRAADHITAMA NISMARA SOEMANTRI</h1>
-      <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">PUTRA KETIGA DARI <br/> BPK. HENDRA KUSUMA SOEMANTRI & IBU ARTIKA RAHMASARI</p>
+      <h1 className="sm:text-3xl text-2xl font-bold text-center title-font text-gray-900 mb-4">WIRAADHITAMA NISMARA SUMANTRI</h1>
+      <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">PUTRA KETIGA DARI BPK. HENDRA KUSUMA SUMANTRI & IBU ARTIKA RAHMASARI</p>
     </div>
     <div className="flex md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
